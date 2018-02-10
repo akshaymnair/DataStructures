@@ -1,0 +1,101 @@
+Choice		Action
+------		------
+A		Add Country
+D		Display Countries
+M		Change Medal Count
+Q		Quit
+R		Remove Country
+?		Display Help
+
+
+What action would you like to perform?
+A
+Please enter some country information:
+Enter a country name:
+United States
+Enter its number of gold medals:
+3
+Enter its number of silver medals:
+5
+Enter its number of bronze medals:
+4
+The country United States added
+
+What action would you like to perform?
+A
+Please enter some country information:
+Enter a country name:
+China
+Enter its number of gold medals:
+3
+Enter its number of silver medals:
+2
+Enter its number of bronze medals:
+3
+The country China added
+
+What action would you like to perform?
+A
+Please enter some country information:
+Enter a country name:
+Australia
+Enter its number of gold medals:
+2
+Enter its number of silver medals:
+0
+Enter its number of bronze medals:
+3
+The country Australia added
+
+What action would you like to perform?
+D
+Country Name : Australia, Gold : 2, Silver : 0, Bronze : 3
+Country Name : China, Gold : 3, Silver : 2, Bronze : 3
+Country Name : United States, Gold : 3, Silver : 5, Bronze : 4
+
+What action would you like to perform?
+M
+Please enter a country to change its medal count:
+Hungary
+Please enter a medal type (gold, silver, or bronze):
+bronze
+Enter its new medal count:
+2
+The country Hungary does not exist
+
+What action would you like to perform?
+M
+Please enter a country to change its medal count:
+Australia
+Please enter a medal type (gold, silver, or bronze):
+gold
+Enter its new medal count:
+3
+The country Australia updated
+
+What action would you like to perform?
+D
+Country Name : Australia, Gold : 3, Silver : 0, Bronze : 3
+Country Name : China, Gold : 3, Silver : 2, Bronze : 3
+Country Name : United States, Gold : 3, Silver : 5, Bronze : 4
+
+What action would you like to perform?
+R
+Please enter a country to remove:
+Russia
+The country Russia does not exist
+
+What action would you like to perform?
+R
+Please enter a country to remove:
+United States
+The country United States removed
+
+What action would you like to perform?
+D
+Country Name : Australia, Gold : 3, Silver : 0, Bronze : 3
+Country Name : China, Gold : 3, Silver : 2, Bronze : 3
+
+What action would you like to perform?
+Q
+Number of deleted Countries are : 2
