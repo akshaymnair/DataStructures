@@ -1,0 +1,139 @@
+
+next command: graph,0,10
+
+
+next command: print_graph
+
+Graph (Adjacency List) content
+
+Arizona State beat: Florida State(43-14), New Mexico(58-23), Oregon(12-9)
+
+Arkansas beat: none
+
+Florida State beat: Arkansas(22-17)
+
+Mississippi State beat: Arkansas(29-17), Texas A&M(31-25)
+
+New Mexico beat: Arkansas(14-10)
+
+Oregon beat: Florida State(31-25), UCLA(25-13)
+
+Texas A&M beat: New Mexico(32-12)
+
+UCLA beat: Arizona State(62-27)
+
+
+
+next command: depth_first_search
+
+
+The array pi content:
+
+pi[Arizona State] = none
+pi[Arkansas] = Florida State
+pi[Florida State] = Arizona State
+pi[Mississippi State] = none
+pi[New Mexico] = Arizona State
+pi[Oregon] = Arizona State
+pi[Texas A&M] = Mississippi State
+pi[UCLA] = Oregon
+
+The array discoverTime content:
+
+discoverTime[Arizona State] = number 1
+discoverTime[Arkansas] = number 3
+discoverTime[Florida State] = number 2
+discoverTime[Mississippi State] = number 13
+discoverTime[New Mexico] = number 6
+discoverTime[Oregon] = number 8
+discoverTime[Texas A&M] = number 14
+discoverTime[UCLA] = number 9
+
+The array finishTime content:
+
+finishTime[Arizona State] = number 12
+finishTime[Arkansas] = number 4
+finishTime[Florida State] = number 5
+finishTime[Mississippi State] = number 16
+finishTime[New Mexico] = number 7
+finishTime[Oregon] = number 11
+finishTime[Texas A&M] = number 15
+finishTime[UCLA] = number 10
+
+
+next command: end_graph
+
+
+next command: graph,2,25
+
+
+next command: print_graph
+
+Graph (Adjacency List) content
+
+Arizona State beat: Florida State(43-14), New Mexico(58-23), Oregon(12-9)
+
+Arkansas beat: none
+
+Florida State beat: Arkansas(22-17)
+
+Mississippi State beat: Texas A&M(31-25)
+
+New Mexico beat: Arkansas(14-10)
+
+Oregon beat: UCLA(25-13), Washington State(18-15)
+
+Texas A&M beat: New Mexico(32-12)
+
+UCLA beat: Arizona State(62-27)
+
+Utah beat: Florida State(39-15)
+
+Washington State beat: Utah(28-27)
+
+
+
+next command: depth_first_search
+
+
+The array pi content:
+
+pi[Arizona State] = none
+pi[Arkansas] = Florida State
+pi[Florida State] = Arizona State
+pi[Mississippi State] = none
+pi[New Mexico] = Arizona State
+pi[Oregon] = Arizona State
+pi[Texas A&M] = Mississippi State
+pi[UCLA] = Oregon
+pi[Utah] = Washington State
+pi[Washington State] = Oregon
+
+The array discoverTime content:
+
+discoverTime[Arizona State] = number 1
+discoverTime[Arkansas] = number 3
+discoverTime[Florida State] = number 2
+discoverTime[Mississippi State] = number 17
+discoverTime[New Mexico] = number 6
+discoverTime[Oregon] = number 8
+discoverTime[Texas A&M] = number 18
+discoverTime[UCLA] = number 9
+discoverTime[Utah] = number 12
+discoverTime[Washington State] = number 11
+
+The array finishTime content:
+
+finishTime[Arizona State] = number 16
+finishTime[Arkansas] = number 4
+finishTime[Florida State] = number 5
+finishTime[Mississippi State] = number 20
+finishTime[New Mexico] = number 7
+finishTime[Oregon] = number 15
+finishTime[Texas A&M] = number 19
+finishTime[UCLA] = number 10
+finishTime[Utah] = number 13
+finishTime[Washington State] = number 14
+
+
+next command: quit

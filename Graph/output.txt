@@ -1,0 +1,211 @@
+
+next command: graph,0,10
+Reading edges.txt 
+Total edges lines in the file: 13
+Edges lines taken in this operation: from 0 to 10
+
+next command: print_graph
+Graph (Adjacency List) contents:
+
+Oregon beat: Florida State 31-25
+Mississippi State beat: Arkansas 29-17
+Mississippi State beat: Texas A&M 31-25
+UCLA beat: Arizona State 62-27
+Florida State beat: Arkansas 22-17
+Arizona State beat: Oregon 12-9
+New Mexico beat: Arkansas 14-10
+Texas A&M beat: New Mexico 32-12
+Arizona State beat: Florida State 43-14
+Arizona State beat: New Mexico 58-23
+Oregon beat: UCLA 25-13
+
+next command: depth_first_search
+
+The array pi content:
+
+pi [Oregon] = none
+pi [Florida State] = Oregon
+pi [Mississippi State] = none
+pi [Arkansas] = Mississippi State
+pi [Mississippi State] = none
+pi [Texas A&M] = Mississippi State
+pi [UCLA] = none
+pi [Arizona State] = UCLA
+pi [Florida State] = none
+pi [Arkansas] = Florida State
+pi [Arizona State] = none
+pi [Oregon] = Arizona State
+pi [New Mexico] = none
+pi [Arkansas] = New Mexico
+pi [Texas A&M] = none
+pi [New Mexico] = Texas A&M
+pi [Arizona State] = none
+pi [Florida State] = Arizona State
+pi [Arizona State] = none
+pi [New Mexico] = Arizona State
+pi [Oregon] = none
+pi [UCLA] = Oregon
+
+The array discovery time content:
+
+DiscoverTIme [Oregon] = 1
+DiscoverTIme [Florida State] = 2
+DiscoverTIme [Mississippi State] = 2
+DiscoverTIme [Arkansas] = 3
+DiscoverTIme [Mississippi State] = 3
+DiscoverTIme [Texas A&M] = 4
+DiscoverTIme [UCLA] = 4
+DiscoverTIme [Arizona State] = 5
+DiscoverTIme [Florida State] = 5
+DiscoverTIme [Arkansas] = 6
+DiscoverTIme [Arizona State] = 6
+DiscoverTIme [Oregon] = 7
+DiscoverTIme [New Mexico] = 7
+DiscoverTIme [Arkansas] = 8
+DiscoverTIme [Texas A&M] = 8
+DiscoverTIme [New Mexico] = 9
+DiscoverTIme [Arizona State] = 9
+DiscoverTIme [Florida State] = 10
+DiscoverTIme [Arizona State] = 10
+DiscoverTIme [New Mexico] = 11
+DiscoverTIme [Oregon] = 11
+DiscoverTIme [UCLA] = 12
+
+The array finish time content:
+
+FInishTime [Oregon] = 20
+FInishTime [Florida State] = 19
+FInishTime [Mississippi State] = 19
+FInishTime [Arkansas] = 18
+FInishTime [Mississippi State] = 18
+FInishTime [Texas A&M] = 17
+FInishTime [UCLA] = 17
+FInishTime [Arizona State] = 16
+FInishTime [Florida State] = 16
+FInishTime [Arkansas] = 15
+FInishTime [Arizona State] = 15
+FInishTime [Oregon] = 14
+FInishTime [New Mexico] = 14
+FInishTime [Arkansas] = 13
+FInishTime [Texas A&M] = 13
+FInishTime [New Mexico] = 12
+FInishTime [Arizona State] = 12
+FInishTime [Florida State] = 11
+FInishTime [Arizona State] = 11
+FInishTime [New Mexico] = 10
+FInishTime [Oregon] = 10
+FInishTime [UCLA] = 9
+
+next command: end_graph
+Deleting current Graph contents..
+
+next command: graph,2,25
+Reading edges.txt 
+Total edges lines in the file: 13
+Edges lines taken in this operation: from 2 to 13
+
+next command: print_graph
+Graph (Adjacency List) contents:
+
+Mississippi State beat: Texas A&M 31-25
+UCLA beat: Arizona State 62-27
+Florida State beat: Arkansas 22-17
+Arizona State beat: Oregon 12-9
+New Mexico beat: Arkansas 14-10
+Texas A&M beat: New Mexico 32-12
+Arizona State beat: Florida State 43-14
+Arizona State beat: New Mexico 58-23
+Oregon beat: UCLA 25-13
+Oregon beat: Washington State 18-15
+Washington State beat: Utah 28-27
+Utah beat: Florida State 39-15
+
+next command: depth_first_search
+
+The array pi content:
+
+pi [Mississippi State] = none
+pi [Texas A&M] = Mississippi State
+pi [UCLA] = none
+pi [Arizona State] = UCLA
+pi [Florida State] = none
+pi [Arkansas] = Florida State
+pi [Arizona State] = none
+pi [Oregon] = Arizona State
+pi [New Mexico] = none
+pi [Arkansas] = New Mexico
+pi [Texas A&M] = none
+pi [New Mexico] = Texas A&M
+pi [Arizona State] = none
+pi [Florida State] = Arizona State
+pi [Arizona State] = none
+pi [New Mexico] = Arizona State
+pi [Oregon] = none
+pi [UCLA] = Oregon
+pi [Oregon] = none
+pi [Washington State] = Oregon
+pi [Washington State] = none
+pi [Utah] = Washington State
+pi [Utah] = none
+pi [Florida State] = Utah
+
+The array discovery time content:
+
+DiscoverTIme [Mississippi State] = 1
+DiscoverTIme [Texas A&M] = 2
+DiscoverTIme [UCLA] = 2
+DiscoverTIme [Arizona State] = 3
+DiscoverTIme [Florida State] = 3
+DiscoverTIme [Arkansas] = 4
+DiscoverTIme [Arizona State] = 4
+DiscoverTIme [Oregon] = 5
+DiscoverTIme [New Mexico] = 5
+DiscoverTIme [Arkansas] = 6
+DiscoverTIme [Texas A&M] = 6
+DiscoverTIme [New Mexico] = 7
+DiscoverTIme [Arizona State] = 7
+DiscoverTIme [Florida State] = 8
+DiscoverTIme [Arizona State] = 8
+DiscoverTIme [New Mexico] = 9
+DiscoverTIme [Oregon] = 9
+DiscoverTIme [UCLA] = 10
+DiscoverTIme [Oregon] = 10
+DiscoverTIme [Washington State] = 11
+DiscoverTIme [Washington State] = 11
+DiscoverTIme [Utah] = 12
+DiscoverTIme [Utah] = 12
+DiscoverTIme [Florida State] = 13
+
+The array finish time content:
+
+FInishTime [Mississippi State] = 22
+FInishTime [Texas A&M] = 21
+FInishTime [UCLA] = 21
+FInishTime [Arizona State] = 20
+FInishTime [Florida State] = 20
+FInishTime [Arkansas] = 19
+FInishTime [Arizona State] = 19
+FInishTime [Oregon] = 18
+FInishTime [New Mexico] = 18
+FInishTime [Arkansas] = 17
+FInishTime [Texas A&M] = 17
+FInishTime [New Mexico] = 16
+FInishTime [Arizona State] = 16
+FInishTime [Florida State] = 15
+FInishTime [Arizona State] = 15
+FInishTime [New Mexico] = 14
+FInishTime [Oregon] = 14
+FInishTime [UCLA] = 13
+FInishTime [Oregon] = 13
+FInishTime [Washington State] = 12
+FInishTime [Washington State] = 12
+FInishTime [Utah] = 11
+FInishTime [Utah] = 11
+FInishTime [Florida State] = 10
+
+next command: end_graph
+Deleting current Graph contents..
+
+next command: quit
+Deleted Graph.. Exiting Program!! 
+
