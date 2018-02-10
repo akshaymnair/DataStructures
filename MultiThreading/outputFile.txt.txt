@@ -1,0 +1,101 @@
+OUTPUT FILE of Assignment#3 Question 5
+Name: Akshay M Nair
+akshayms@asu.edu
+CSE310
+------------------------------------------------------------------------
+
+akshay@Linux-Box:~/Desktop/Windows-Host$ ./prob5
+ How many random numbers do you want to generate?
+100
+
+ # Random Numners: 100
+ Number of processors available = 1
+ Number of threads = 4
+
+
+ sum loop is 5377
+ time        0.000001
+
+
+ sum loop OMP is 5377
+ time        0.000167
+
+
+ sum recursion is 5377
+ time        0.000002
+
+
+ sum recursion OMP is 5377
+ time        0.000029
+
+akshay@Linux-Box:~/Desktop/Windows-Host$ ./prob5
+ How many random numbers do you want to generate?
+10000
+
+ # Random Numners: 10000
+ Number of processors available = 1
+ Number of threads = 4
+
+
+ sum loop is 494845
+ time        0.000037
+
+
+ sum loop OMP is 494845
+ time        0.000159
+
+
+ sum recursion is 494845
+ time        0.000127
+
+
+ sum recursion OMP is 494845
+ time        0.000154
+
+akshay@Linux-Box:~/Desktop/Windows-Host$ ./prob5
+ How many random numbers do you want to generate?
+1000000
+
+ # Random Numners: 1000000
+ Number of processors available = 1
+ Number of threads = 4
+
+
+ sum loop is 49499349
+ time        0.003646
+
+
+ sum loop OMP is 49499349
+ time        0.005880
+
+
+ sum recursion is 49499349
+ time        0.022748
+
+
+ sum recursion OMP is 49499349
+ time        0.043302
+
+akshay@Linux-Box:~/Desktop/Windows-Host$ ./prob5
+ How many random numbers do you want to generate?
+10000000
+
+ # Random Numners: 10000000
+ Number of processors available = 1
+ Number of threads = 4
+
+
+ sum loop is 495111246
+ time        0.077308
+
+
+ sum loop OMP is 370816224
+ time        0.072525
+
+
+ sum recursion is 495111246
+ time        0.287315
+
+
+ sum recursion OMP is 495111246
+ time        0.217181
